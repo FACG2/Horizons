@@ -1,18 +1,17 @@
 body{
   margin: 0;
-  height: 10000px;
 }
 
 
 .container{
-  width: 1200px;
+  max-width: 1200px;
   margin:0 auto;
-  height: 1000px;
+  height: 660px;
 }
 
 .back-color
 {
-  background-color: #b1b1ca;
+  background-color: #101052;
   margin-top: -60px;
 }
 
@@ -22,60 +21,218 @@ body{
   margin-top: 50px;
 }
 
-.our-us h2
-{
-  font-size: 70px;
-  font-family: 'Satisfy', cursive;
-  text-transform: capitalize;
-  padding-top:50px;
+
+@media (max-width:1366px){
+  .our-us h2
+  {
+    font-size: 70px;
+    font-family: 'Satisfy', cursive;
+    text-transform: capitalize;
+    padding-top:50px;
+  }
+
+
+
+  .our-team{
+    margin: auto;
+    height: 340px;
+    width: 80%;
+  }
+
+  .our-team figure {
+    width: 22%;
+    float: left;
+    border: 3px ridge #DDD;
+    height: 400px;
+    margin-right: -20px;
+    border-radius: 10px;
+
+  }
+
+  .our-team figure .p-head
+  {
+    margin-top: 30px;
+    text-transform: capitalize;
+  }
+
+  .our-team figure .p-head h3
+  {
+    font-family: 'Roboto Slab', serif;
+  }
+  .our-team figure .p-head q {
+    color: #DDD;
+  }
+  .our-team figure .p1
+  {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .our-team figure .social{
+    margin-top:35px;
+  }
+  .our-team figure .social .ph1
+  {
+    width: 40px;
+    height: 40px;
+
+  }
+}
+
+
+@media (max-width:1105px){
+  .back-color
+  {
+    background-color: #101052;
+    margin-top: -60px;
+  }
+  .container{
+    max-width: 1200px;
+    margin:0 auto;
+    height: 1050px;
+  }
+  .our-us h2
+  {
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    text-transform: capitalize;
+    padding-top:50px;
+  }
+
+
+
+  .our-team{
+    margin: auto;
+    height: 340px;
+    width: 60%;
+  }
+
+  .our-team figure {
+    width: 45%;
+    margin-left: 5%;
+    float: left;
+    border: 3px ridge #DDD;
+    height: 400px;
+    margin-right: 0;
+    border-radius: 10px;
+
+  }
+
+  .our-team figure:nth-child(odd){
+    margin-left: 0;
+  }
+  .our-team figure .p-head
+  {
+    margin-top: 30px;
+    text-transform: capitalize;
+  }
+
+  .our-team figure .p-head h3
+  {
+    font-family: 'Roboto Slab', serif;
+  }
+  .our-team figure .p-head q {
+    color: #DDD;
+  }
+  .our-team figure .p1
+  {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+  }
+  .our-team figure .social{
+    margin-top:35px;
+  }
+  .our-team figure .social .ph1
+  {
+    width: 40px;
+    height: 40px;
+
+  }
+
 }
 
 
 
-.our-team{
-  margin-top: -75px;
-  height: 340px;
-  padding-top: 44px;
-}
+@media (max-width:835px){
+  .back-color
+  {
+    background-color: #101052;
+    margin-top: -60px;
+    width: 100%;
+  }
 
-.our-team figure {
-  width: 23%;
-  float: left;
-  border: 2px solid #DDD;
-  height: 475px;
-  margin-right: -20px;
+    .container{
+      max-width: 1200px;
+      margin:0 auto;
+      height: 1950px;
+    }
+    .our-us h2
+    {
+      font-size: 50px;
+      font-family: 'Satisfy', cursive;
+      text-transform: capitalize;
+      padding-top:50px;
+    }
 
-}
 
-.our-team figure .p-head
-{
-  margin-top: 30px;
-  text-transform: capitalize;
-}
 
-.our-team figure .p-head h3
-{
-  font-family: 'Roboto Slab', serif;
-}
-.our-team figure .p-head q {
-  color: #DDD;
-}
-.our-team figure .p1
-{
-  width: 240px;
-  height: 240px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-.our-team figure .social{
-  margin-top:35px;
-}
-.our-team figure .social .ph1
-{
-  width: 40px;
-  height: 40px;
+    .our-team{
+      margin: auto;
+      height: 340px;
+      width: 60%;
+    }
 
-}
+    .our-team figure {
+      margin-left: 0;
+      border: 3px ridge #DDD;
+      height: 400px;
+      margin-right: 0;
+      border-radius: 10px;
+      float: none;
+      display: inline-block;
+      width: 80%;
+    }
+
+    .our-team figure .p-head
+    {
+      margin-top: 30px;
+      text-transform: capitalize;
+    }
+
+    .our-team figure .p-head h3
+    {
+      font-family: 'Roboto Slab', serif;
+    }
+    .our-team figure .p-head q {
+      color: #DDD;
+    }
+    .our-team figure .p1
+    {
+      width: 160px;
+      height: 160px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -o-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+    }
+    .our-team figure .social{
+      margin-top:35px;
+    }
+    .our-team figure .social .ph1
+    {
+      width: 40px;
+      height: 40px;
+
+    }
+
+  }
