@@ -376,6 +376,10 @@ footer
     height: 40px;
 
   }
+	.btn {
+		padding: 10px 155px;
+		border-radius: 5px;
+	}
 
 }
 
