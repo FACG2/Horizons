@@ -218,6 +218,9 @@ footer
   header{
     padding: 5px 50px;
     margin-bottom:0;
+		position: fixed;
+		background: #1e3d48;
+		opacity: .8;
   }
   #About{
     padding: 100px 50px;
@@ -295,6 +298,10 @@ footer
   font-size: 16px;
   text-shadow: 1px 1px #000;
   }
+	.header{
+		background: #1e3d48;
+		opacity: .8;
+	}
 
 	#About p {
 		color: #ffa73d;
@@ -388,6 +395,8 @@ footer
 @media (max-width:835px){
   header{
     flex-direction: column;
+		background: #1e3d48;
+		opacity: .8;
   }
 
   header h2{
