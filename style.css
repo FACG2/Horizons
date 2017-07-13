@@ -223,6 +223,8 @@ footer
     padding: 100px 50px;
   }
 
+
+
   .our-us h2
   {
     font-size: 70px;
@@ -293,6 +295,13 @@ footer
   font-size: 16px;
   text-shadow: 1px 1px #000;
   }
+
+	#About p {
+		color: #ffa73d;
+		font-size: 18px;
+		margin: 0 auto;
+
+	}
 
   .back-color
   {
@@ -422,31 +431,37 @@ footer
       float: none;
       display: inline-block;
       width: 80%;
+			position: relative;
     }
 
     .our-team figure .p-head
     {
       margin-top: 30px;
       text-transform: capitalize;
+
     }
 
     .our-team figure .p-head h3
     {
       font-family: 'Roboto Slab', serif;
 			color: #f7f6f6;
+			margin-top: 170px;
     }
     .our-team figure .p-head q {
       color: #DDD;
     }
     .our-team figure .p1
     {
-      width: 160px;
-      height: 160px;
+      width: 120px;
+      height: 120px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -o-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%;
+			position: absolute;
+			margin:20px 0 0 -60px;
+			top: 0;
     }
     .our-team figure .social{
       margin-top:35px;
@@ -457,5 +472,10 @@ footer
       height: 40px;
 
     }
+
+		.btn {
+			padding: 10px 155px;
+    	border-radius: 5px;
+		}
 
   }
