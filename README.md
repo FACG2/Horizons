@@ -47,7 +47,7 @@ Our plan was to divide the work between Us to achieve the page that Satisfy the 
 
 
 
- 
+
     + Publish the Github Page.
 
-You can visit our site from [here]:https://facg2.github.io/Horizons/
+You can visit our site from [here] : https://facg2.github.io/Horizons/
