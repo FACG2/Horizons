@@ -66,12 +66,14 @@ a:hover{
 	text-align: center;
 }
 
-#About p{
+#About p {
 	max-width: 800px;
 	text-align: center;
 	margin-bottom: 35px;
+	margin-left: 220px;
 	padding: 0 20px;
 	line-height: 2;
+	font-size: 18px;
 }
 
 
@@ -239,7 +241,7 @@ footer
   }
 
   .our-team figure {
-    width: 22%;
+    width: 23%;
     float: left;
     border: 3px ridge #DDD;
     height: 400px;
@@ -257,6 +259,7 @@ footer
   .our-team figure .p-head h3
   {
     font-family: 'Roboto Slab', serif;
+		color: #f7f6f6;
   }
   .our-team figure .p-head q {
     color: #DDD;
@@ -340,6 +343,7 @@ footer
   .our-team figure .p-head h3
   {
     font-family: 'Roboto Slab', serif;
+		color: #f7f6f6;
   }
   .our-team figure .p-head q {
     color: #DDD;
@@ -429,6 +433,7 @@ footer
     .our-team figure .p-head h3
     {
       font-family: 'Roboto Slab', serif;
+			color: #f7f6f6;
     }
     .our-team figure .p-head q {
       color: #DDD;
