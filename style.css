@@ -17,7 +17,7 @@ html{
 
 .back-color
 {
-  background-color: #101052;
+  background-color: #215e66;
   margin-top: -60px;
 }
 
@@ -193,8 +193,9 @@ text-align: left;
 }
 h2
 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300px;
+	font-family: 'Raleway', sans-serif;
+	color: gainsboro;
+	font-size: x-large;
 }
 .btn
 {
