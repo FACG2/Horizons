@@ -17,16 +17,10 @@ And it feels Great just Knowing that we are making a deference and our products 
   We started with the User Stories which tells us what this page has to contain
   and we starting with putting things together based on these user Stories to Come Up with the following Sketches:
 
-  The Desktop Sketch:
-![alt text][photo1]
 
-[photo1]: https://github.com/FACG2/Horizons/blob/master/Desktop_Sketch.JPG "The Desktop Sketch"
-
-The mobile Sketch:
-![alt text][photo2]
-
-[photo2]: https://github.com/FACG2/Horizons/blob/master/Mobile_Sketch.JPG "The mobile Sketch"
-
+  The Desktop Sketch             |  The Mobile Sketch
+:-------------------------:|:-------------------------:
+<img src="https://github.com/FACG2/Horizons/blob/master/Desktop_Sketch.JPG" width="450" height="600" />  |  <img src="https://github.com/FACG2/Horizons/blob/master/Mobile_Sketch.JPG" width="450" height="600" />
 
   ## Our plan 
   it was to divide the work between Us to achieve the page that Satisfy the User Stories
